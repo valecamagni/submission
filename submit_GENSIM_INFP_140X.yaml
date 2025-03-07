@@ -1,0 +1,107 @@
+Common:
+  mode: 3STEPS
+  name: gensim_infp
+
+  tasks:
+    - m20
+    - m30
+    - m40
+    - m50
+    - m60
+    - m70
+    - m80
+    - m90
+
+  version: 142Xv0
+  output_dir_base: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs
+  ncpu: 4
+  max_memory: 7000
+  output_file_name: inputs140X.root
+
+Configuration:
+  - mode: FEVTDEBUG
+    cmssw_config: ../step1.py
+  - mode: FEVTDEBUGHLT
+    cmssw_config: ../step2.py
+  - mode: INFP
+    cmssw_config: /afs/cern.ch/user/v/vcamagni/FPinputs/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runInputs140X.py
+
+
+m20:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m20/m20.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: workday
+  max_events: 1000000
+
+
+m30:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m30/m30.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m40:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m40/m40.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m50:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m50/m50.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m60:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m60/m60.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m70:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m70/m70.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m80:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m80/m80.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000
+
+
+m90:
+  input_files:
+    - file:/eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/LHE/m90/m90.lhe
+  crab: False
+  splitting_mode: event_ranges
+  splitting_granularity: 250
+  job_flavor: testmatch
+  max_events: 1000000

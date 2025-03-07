@@ -392,7 +392,8 @@ def createJobConfig(mode, params, step_name=None, in_file=None, out_file=None):
                 job_logic = params['SPLIT'][job_idx]
                 custom_template += 'process.source.lumisToProcess = cms.untracked.VLuminosityBlockRange("{}")\n'.format(job_logic)
         elif params['TEMPL_SPLITTINGMODE'] == 'event_ranges':
-            params['TEMPL_FIRSTLUMI'] = 1000+job_idx
+            #params['TEMPL_FIRSTLUMI'] = 1000+job_idx
+            params['TEMPL_FIRSTLUMI'] = 0
             params['TEMPL_SKIPENVETS'] = params['SPLIT'][job_idx]
 
 

@@ -1,0 +1,208 @@
+
+Common:
+  mode: FP
+  name: fp
+
+  tasks:
+    - m20
+    - m30
+    - m40
+    - m50
+    - m60
+    - m70
+    - m80
+    - m90
+    - MinBias_PU200
+    - SingleNeutrino_PU200
+
+  version: v142Xv0
+  output_dir_base: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FP
+  ncpu: 4
+  output_file_name: perfNano.root
+
+
+Configuration:
+  - mode: FP
+    cmssw_config: /afs/cern.ch/user/v/vcamagni/FPinputs/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runPerformanceNTuple.py
+
+
+m20:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m20/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+
+m30:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m30/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m40:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m40/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m50:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m50/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m60:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m60/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m70:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m70/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenLep();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m80:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m80/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+m90:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m90/3STEPS/142Xv0
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+MinBias_PU200:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/FastPUPPI/14_2_X/fpinputs_140X/v0/MinBias_PU200
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+SingleNeutrino_PU200:
+  input_directory: /eos/cms/store/cmst3/group/l1tr/FastPUPPI/14_2_X/fpinputs_140X/v0/SingleNeutrino_PU200
+  crab: False
+  splitting_mode: file_based
+  splitting_granularity: 1
+  inline_customize:
+    - addSeededConeJets();
+    - addNNPuppiTaus();
+    - addGenVisTaus();
+    - addVertexes();
+    - addGenVisTausConstituents(5);
+    - addJetConstituents(15);
+    - addGenParticles();
+  job_flavor: microcentury
+  max_events: -1
+
+
+
+
+
+
+
+
+
+

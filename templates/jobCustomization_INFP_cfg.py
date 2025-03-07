@@ -1,6 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-from input_cfg import process
+from TEMPL_ROOTCFG import process
 
 process.maxEvents.input = cms.untracked.int32(TEMPL_NEVENTS)
 process.source.fileNames = cms.untracked.vstring(TEMPL_INFILES)
