@@ -120,7 +120,6 @@ m70:
   inline_customize:
     - addSeededConeJets();
     - addNNPuppiTaus();
-    - addGenLep();
     - addGenVisTaus();
     - addVertexes();
     - addGenVisTausConstituents(5);

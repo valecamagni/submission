@@ -69,7 +69,7 @@ echo '...done!'
 echo 'Switching to CMSSW_14_2_0_pre2 for STEP3...'
 echo ${PWD}
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-cd /afs/cern.ch/user/v/vcamagni/FPinputs/CMSSW_14_2_0_pre2
+cd /afs/cern.ch/user/v/vcamagni/public/FastPuppi/CMSSW_14_2_0_pre2
 eval `scram runtime -sh`
 echo "Now using CMSSW version: CMSSW_14_2_0_pre2"
 

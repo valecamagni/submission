@@ -24,7 +24,7 @@ Configuration:
   - mode: FEVTDEBUGHLT
     cmssw_config: ../step2.py
   - mode: INFP
-    cmssw_config: /afs/cern.ch/user/v/vcamagni/FPinputs/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runInputs140X.py
+    cmssw_config: /afs/cern.ch/user/v/vcamagni/public/FastPuppi/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runInputs140X.py
 
 
 m20:
