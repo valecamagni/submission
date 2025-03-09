@@ -6,8 +6,8 @@ from TEMPL_ROOTCFG import process
 process.source.fileNames = cms.untracked.vstring(TEMPL_INFILES)
 ## Events and lumi blocks
 process.maxEvents.input = cms.untracked.int32(TEMPL_NEVENTS)
-if process.source.type_() != 'EmptySource':
-    process.source.skipEvents = cms.untracked.uint32(TEMPL_SKIPENVETS)
+#if process.source.type_() != 'EmptySource':
+#    process.source.skipEvents = cms.untracked.uint32(TEMPL_SKIPENVETS)
 process.source.firstLuminosityBlock = cms.untracked.uint32(TEMPL_FIRSTLUMI)
 ## Scramble
 import random
