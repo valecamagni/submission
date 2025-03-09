@@ -23,11 +23,11 @@ Common:
 
 Configuration:
   - mode: FP
-    cmssw_config: /afs/cern.ch/user/v/vcamagni/FPinputs/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runPerformanceNTuple.py
+    cmssw_config: /afs/cern.ch/user/v/vcamagni/FastPuppi/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runPerformanceNTuple.py
 
 
 m20:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m20/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m20/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -45,7 +45,7 @@ m20:
 
 
 m30:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m30/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m30/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -62,7 +62,7 @@ m30:
 
 
 m40:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m40/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m40/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -79,7 +79,7 @@ m40:
 
 
 m50:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m50/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m50/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -96,7 +96,7 @@ m50:
 
 
 m60:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m60/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m60/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -113,7 +113,7 @@ m60:
 
 
 m70:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m70/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m70/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -130,7 +130,7 @@ m70:
 
 
 m80:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m80/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m80/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
@@ -147,7 +147,7 @@ m80:
 
 
 m90:
-  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m90/3STEPS/142Xv0
+  input_directory: /eos/cms/store/cmst3/group/l1tr/vcamagni/L1TauID/DATA/FPinputs/m90/4STEPS/142Xv0
   crab: False
   splitting_mode: file_based
   splitting_granularity: 1
