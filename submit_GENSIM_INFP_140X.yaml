@@ -1,5 +1,5 @@
 Common:
-  mode: 3STEPS
+  mode: 4STEPS
   name: gensim_infp
 
   tasks:
@@ -19,12 +19,14 @@ Common:
   output_file_name: inputs140X.root
 
 Configuration:
+  - mode: LHE
+    cmssw_config: ../step0.py
   - mode: FEVTDEBUG
     cmssw_config: ../step1.py
   - mode: FEVTDEBUGHLT
     cmssw_config: ../step2.py
   - mode: INFP
-    cmssw_config: /afs/cern.ch/user/v/vcamagni/public/FastPuppi/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runInputs140X.py
+    cmssw_config: /afs/cern.ch/user/v/vcamagni/FastPuppi/CMSSW_14_2_0_pre2/src/FastPUPPI/NtupleProducer/python/runInputs140X.py
 
 
 m20:
